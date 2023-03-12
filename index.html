@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="img/memo_fav.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d1b51de8a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script type="module" src="dist/app.js" defer></script> -->
+    <title>Memo</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1 class="title">MEMO</h1>
+      </header>
+      <main class="document"></main>
+      <footer class="footer">
+        <form action="new-form" class="form">
+          <input type="text" class="input" name="value" maxlength="140" />
+          <input
+            type="radio"
+            class="input-radio"
+            name="color"
+            id="yellow"
+            value="yellow"
+            checked
+          /><label for="yellow" class="yellow"></label>
+          <input
+            type="radio"
+            class="input-radio"
+            name="color"
+            id="blue"
+            value="blue"
+            checked
+          /><label for="blue" class="blue"></label>
+          <input
+            type="radio"
+            class="input-radio"
+            name="color"
+            id="pink"
+            value="pink"
+            checked
+          /><label for="pink" class="pink"></label>
+          <input
+            type="radio"
+            class="input-radio"
+            name="color"
+            id="green"
+            value="green"
+            checked
+          /><label for="green" class="green"></label>
+          <button class="add-btn">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+        </form>
+      </footer>
+    </div>
+  </body>
+</html>
