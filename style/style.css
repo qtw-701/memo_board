@@ -1,10 +1,22 @@
+:root {
+  /* color */
+  --color-white: #f5f5f5;
+  --color-black: #333333;
+  --color-brown: #573f00;
+  --color-darkred: #8e0000;
+  --color-yellow: #fff16f;
+  --color-blue: #6fdcff;
+  --color-pink: #feccff;
+  --color-green: #bbff3b;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: var(--color-white);
 }
 
 li {
@@ -15,7 +27,7 @@ li {
   max-width: 1200px;
   height: 700px;
   background-image: url(../img/cork.png);
-  border: 30px solid #573f00;
+  border: 30px solid var(--color-brown);
   border-radius: 10px;
   margin: 50px auto;
 }
@@ -25,7 +37,7 @@ li {
   font-family: 'Jost', sans-serif;
   font-weight: 600;
   text-align: center;
-  color: #333333;
+  color: var(--color-black);
   padding: 15px 0;
 }
 
@@ -45,7 +57,7 @@ li {
 .memo {
   width: 180px;
   height: 200px;
-  background-color: #fff16f;
+  background-color: var(--color-yellow);
   margin-bottom: 15px;
   padding: 10px;
   position: relative;
@@ -53,19 +65,19 @@ li {
 }
 
 .memo.yellow {
-  background-color: #fff16f;
+  background-color: var(--color-yellow);
 }
 
 .memo.blue {
-  background-color: #6fdcff;
+  background-color: var(--color-blue);
 }
 
 .memo.pink {
-  background-color: #feccff;
+  background-color: var(--color-pink);
 }
 
 .memo.green {
-  background-color: #bbff3b;
+  background-color: var(--color-green);
 }
 
 .memo:hover .delete-btn {
@@ -79,7 +91,7 @@ li {
 .delete-btn {
   visibility: hidden;
   font-size: 20px;
-  color: #333333;
+  color: var(--color-black);
   outline: none;
   border: none;
   background-color: transparent;
@@ -91,7 +103,7 @@ li {
 }
 
 .delete-btn:hover {
-  color: darkred;
+  color: var(--color-darkred);
 }
 
 .footer {
@@ -131,33 +143,33 @@ label {
 }
 
 label.yellow {
-  background-color: #fff16f;
+  background-color: var(--color-yellow);
 }
 
 label.blue {
-  background-color: #6fdcff;
+  background-color: var(--color-blue);
 }
 
 label.pink {
-  background-color: #feccff;
+  background-color: var(--color-pink);
 }
 
 label.green {
-  background-color: #bbff3b;
+  background-color: var(--color-green);
 }
 
 .input-radio:checked + label {
-  border: 3px solid #573f00;
+  border: 3px solid var(--color-brown);
 }
 
 .add-btn {
   width: 40px;
   height: 40px;
-  background-color: #333333;
+  background-color: var(--color-black);
   font-size: 30px;
   line-height: 30px;
   text-align: center;
-  color: #f5f5f5;
+  color: var(--color-white);
   outline: none;
   border: none;
   border-radius: 5px;
