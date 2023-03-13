@@ -49,6 +49,7 @@ li {
   margin-bottom: 15px;
   padding: 10px;
   position: relative;
+  box-shadow: 0 4px 4px #00000050;
 }
 
 .memo.yellow {
